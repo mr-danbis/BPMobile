@@ -1,0 +1,41 @@
+<svg width="270.500000" height="42.999878" viewBox="0 0 270.5 42.9999" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_1_458_dd" x="0.000000" y="0.000000" width="270.500000" height="42.999878" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="1"/>
+			<feGaussianBlur stdDeviation="2"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<linearGradient x1="127.000000" y1="35.000000" x2="246.000000" y2="35.000000" id="paint_linear_1_458_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#BC1FEF"/>
+			<stop offset="1.000000" stop-color="#0035FF"/>
+		</linearGradient>
+		<linearGradient x1="246.000000" y1="5.000000" x2="127.000000" y2="5.000000" id="paint_linear_1_458_1" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00B5FF"/>
+			<stop offset="0.530132" stop-color="#632AF7"/>
+			<stop offset="1.000000" stop-color="#FF96F4"/>
+		</linearGradient>
+		<linearGradient x1="0.000002" y1="15.000000" x2="129.000000" y2="14.000031" id="paint_linear_1_460_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FD94F4" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#FD94F4"/>
+		</linearGradient>
+		<linearGradient x1="230.203888" y1="27.897804" x2="256.000000" y2="55.897808" id="paint_linear_1_461_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#01B4FF"/>
+			<stop offset="1.000000" stop-color="#01B4FF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_1_458_dd)">
+		<rect id="best offer" rx="9.450000" width="117.900002" height="18.900000" transform="translate(127.550003 5.550000)" fill="url(#paint_linear_1_458_0)" fill-opacity="1.000000"/>
+		<path id="Path" d="" fill="#FFFFFF" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="Path" d="M0 14.5C7.73 14.5 15.2 14.5 22.4 14.5C68.22 14.5 103.42 14.5 128 14.5" stroke="url(#paint_linear_1_460_0)" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<path id="Path" d="M245.5 15.21C259.31 16.93 270 28.72 270 42.99" stroke="url(#paint_linear_1_461_0)" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<rect id="best offer" rx="9.450000" width="117.900002" height="18.900000" transform="translate(127.550003 5.550000)" stroke="url(#paint_linear_1_458_1)" stroke-opacity="1.000000" stroke-width="1.100000"/>
+	</g>
+</svg>

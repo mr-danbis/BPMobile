@@ -1,14 +1,44 @@
-//example
+@font-face {
+  font-family: 'SFProDisplay';
+  src: 
+    url('../fonts/SF-Pro-Display-Thin.woff') format('woff'),
+    url('../fonts/SF-Pro-Display-Thin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100;
+}
 
-// @font-face {
-//   font-family: 'HelveticaLight';
-//   src: url('/fonts/HelveticaLight.woff') format('woff');
-//   font-weight: 300;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: 'HelveticaLight';
-//   src: url('/fonts/HelveticaLight.woff2') format('woff2');
-//   font-weight: 300;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'SFProDisplay';
+  src: 
+    url('../fonts/SF-Pro-Display-Regular.woff') format('woff'),
+    url('../fonts/SF-Pro-Display-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: 
+    url('../fonts/SF-Pro-Display-Semibold.woff') format('woff'),
+    url('../fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: 
+    url('../fonts/SF-Pro-Display-Heavy.woff') format('woff'),
+    url('../fonts/SF-Pro-Display-Heavy.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: 
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}

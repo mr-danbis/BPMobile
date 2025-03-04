@@ -1,0 +1,222 @@
+.banner {
+    padding-top: 159px;
+    padding-bottom: 8.5px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: SFProDisplay;
+        font-size: 42px;
+        font-weight: 860;
+        line-height: 46px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    &__advantages {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__advantage {
+        width: 32.4%;
+        height: 139px;
+        object-fit: cover;
+        position: relative;
+
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-title {
+            width: 75px;
+            position: absolute;
+            bottom: 12px;
+            left: 9px;
+            color: rgb(255, 255, 255);
+            font-family: SFProDisplay;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+
+    &__offer {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10.87px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 100px;
+        padding: 8px 56px 8px 24px;
+
+        &--best {
+            margin-bottom: 8px;
+            border: none;
+            padding: 9px 56px 9px 24px;
+            background: rgba(255, 255, 255, 0.1);
+            position: relative;
+
+            &::before{
+                position: absolute;
+                right: 0;
+                top: -15px;
+                content: url(../images/best-offer.svg);
+            } 
+
+            &::after {
+                position: absolute;
+                right: 24px;
+                top: -10px;
+                width: 120px;
+                height: 20px;
+                border: 1px solid rgb(188, 31, 239);
+                content: "best offer";
+                border-radius: 100px;
+                box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5);
+                background: linear-gradient(90.00deg, rgb(188, 31, 239), rgb(0, 53, 255) 100%);
+                padding: 3px 20px;
+                color: rgb(255, 255, 255);
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 13px;
+                letter-spacing: 0px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        &-title {
+            color: rgb(255, 255, 255);
+            font-family: SFProDisplay;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        &-description {
+            color: rgb(255, 255, 255);
+            opacity: 0.7;
+            font-family: SFProDisplay;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        &-right {
+            color: rgb(255, 255, 255);
+            opacity: 0.7;
+            font-family: SFProDisplay;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+
+    &__button {
+        margin-top: 8px;
+        border-radius: 100px;
+        background: rgb(255, 255, 255);
+        color: rgb(7, 11, 51);
+        font-family: SFProDisplay;
+        font-size: 20px;
+        font-weight: 590;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 100%;
+        padding: 16px;
+        margin-bottom: 28px;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__link {
+        color: rgb(255, 255, 255);
+        font-family: SFProDisplay;
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-decoration-line: underline;
+        opacity: 0.3;
+    }
+}
+
+
+/* Для iPhone 13 */
+@media only screen and (max-width: 390px) and (min-width: 376px) {
+    .banner {
+        padding-top: 260px;
+        padding-bottom: 38px;
+
+        &__title {
+            margin-bottom: 24px;
+        }
+
+        &__advantages {
+            margin-bottom: 34px;
+        }
+
+        &__advantage {
+            width: 32.2%;
+            height: 146px;
+        }
+
+        &__button {
+            margin-top: 16px;
+            margin-bottom: 34px;
+        }
+    }
+}
+
+/* Для iPhone 13 */
+@media only screen and (min-height: 812px) {
+    .banner {
+        padding-top: 260px;
+        padding-bottom: 38px;
+
+        &__title {
+            margin-bottom: 24px;
+        }
+
+        &__advantages {
+            margin-bottom: 34px;
+        }
+
+        &__advantage {
+            width: 32.2%;
+            height: 146px;
+        }
+
+        &__button {
+            margin-top: 16px;
+            margin-bottom: 34px;
+        }
+    }
+}

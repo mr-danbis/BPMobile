@@ -1,12 +1,8 @@
 //settings
-@use 'settings/vars';
-@use 'settings/fonts';
-@use 'settings/reset';
-@use 'settings/global';
-
-//common blocks
-@use '../blocks/header/header';
-@use '../blocks/footer/footer';
-@use '../blocks/sidebar/sidebar';
+@import 'settings/vars';
+@import 'settings/fonts';
+@import 'settings/reset';
+@import 'settings/global';
 
 //main page blocks
+@import '../blocks/banner/banner';

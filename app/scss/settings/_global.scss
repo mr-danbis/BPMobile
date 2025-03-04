@@ -4,21 +4,15 @@ body {
     height: 100%;
     background-color: #000;
     color: #fff;
-}
-
-.box {
-    height: 100vh;
-    width: 100vw;
-}
-
-.wrapper {
     display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .main {
-    flex: 1 0 auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 .footer {
@@ -26,7 +20,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 87.2%;
     margin: 0 auto;
 }
 
@@ -52,5 +46,31 @@ body {
     &:hover::before {
         transform: scaleX(1);
         transform-origin: bottom left;
+    }
+}
+
+.close {
+    position: absolute;
+    top: 43px;
+    left: 22px;
+}
+
+/* Для iPhone 13 */
+@media only screen and (max-width: 390px) and (min-width: 376px) {
+    .close {
+        top: 70px;
+        left: 22px;
+    }
+
+    .container {
+        width: 87.7%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 450px) {
+    .main {
+        width: 430px;
+        height: 900px;
     }
 }
